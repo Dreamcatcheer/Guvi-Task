@@ -1,0 +1,38 @@
+*, *::after, *::before{
+   margin: 0;
+   padding: 0;
+}
+
+.register.container-sm{
+   border-radius: 10px;
+   max-width: 500px;
+   border: 1px solid var(--accent);
+}
+
+.profile.container-sm{
+   border-radius: 10px;
+   max-width: 500px;
+   border: 1px solid var(--accent);
+}
+.register .btn, .login .btn, .profile .btn{
+   margin: 0 auto;
+}
+
+body{
+   background-color: #00ff00;
+   color: var(--secondary);
+}
+
+.login.container-sm{
+   border-radius: 10px;
+   max-width: 500px;
+   border: 1px solid var(--accent);
+}
+
+h1{
+   margin-top: 10%;
+   text-align: center;
+}
+select{
+   margin-bottom: 20px;
+}
